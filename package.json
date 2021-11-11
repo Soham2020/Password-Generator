@@ -1,0 +1,16 @@
+{
+  "name": "password-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soham Das",
+  "license": "MIT",
+  "dependencies": {
+    "chalky": "^1.1.4",
+    "clipboardy": "^3.0.0",
+    "commander": "^8.3.0"
+  }
+}
