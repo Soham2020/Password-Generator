@@ -1,5 +1,6 @@
 const createPassword = require('./utils/createPassword');
 const prgm = require('commander');
+const chalk = require('chalky')
 prgm.version('1.0.0').description('Password Generator');
 
 prgm
@@ -12,4 +13,4 @@ prgm
 const { length, save, number, symbol } = prgm.opts();
 
 const genPass = createPassword(length, number, symbol);
-console.log(genPass);
+console.log(chalk.green('Generated Password:: ') + chalk.bold(genPass));
