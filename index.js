@@ -1,3 +1,4 @@
+const createPassword = require('./utils/createPassword');
 const prgm = require('commander');
 prgm.version('1.0.0').description('Password Generator');
 
@@ -9,4 +10,6 @@ prgm
 .parse();
 
 const { length, save, number, symbol } = prgm.opts();
-console.log(length, number, symbol);
+
+const genPass = createPassword(length, number, symbol);
+console.log(genPass);
