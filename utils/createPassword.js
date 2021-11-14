@@ -6,6 +6,9 @@ function createPassword(length, isNum, isSym) {
     var c = alpha;
     isNum ? (c += numbers) : '';
     isSym ? (c += symbols) : '';
-    return c;
+    let pass = '';
+    for(let i=0; i<length; i++)
+        pass += c.charAt(Math.floor(Math.random() * c.length));
+    return pass;
 }
 module.exports = createPassword;
