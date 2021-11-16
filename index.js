@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const createPassword = require('./utils/createPassword');
 const savePassword = require('./utils/savePassword');
 const prgm = require('commander');
