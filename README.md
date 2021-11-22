@@ -1,8 +1,10 @@
 # Password-Generator
 
-## `Tech-Stack`
-### `1. NodeJS`
-### `2. Command line`
+## `Libraries used`
+### `1. Commander`
+### `2. Chalky`
+### `3. CLipboard`
+
 
 If you like it, then starred it.
 
